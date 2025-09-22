@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Featured Image Caption
+ * Plugin Name: Featured Image - Show Caption
  * Description: Adds caption functionality to Featured Image blocks with a simple checkbox setting.
  * Version: 1.0.0
  * Author: Ivan Diuldia

@@ -1,4 +1,4 @@
-=== Featured Image Caption ===
+=== Featured Image - Show Caption ===
 Contributors: ivans3m
 Tags: featured image, caption, gutenberg, blocks
 Requires at least: 5.0
