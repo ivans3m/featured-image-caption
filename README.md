@@ -1,6 +1,15 @@
-# Featured Image Caption Plugin
+# Featured Image Caption
 
 A simple WordPress plugin that adds caption functionality to the Featured Image block.
+
+**Contributors:** ivans3m  
+**Tags:** featured image, caption, gutenberg, blocks  
+**Requires at least:** 5.0  
+**Tested up to:** 6.8  
+**Requires PHP:** 7.0  
+**Stable tag:** 1.0.0  
+**License:** GPLv2   
+**License URI:** https://www.gnu.org/licenses/gpl-2.0.html
 
 ## Features
 
@@ -49,7 +58,7 @@ You can easily customize the appearance by targeting the `.featured-image-captio
 
 ## Author
 
-**Ivan s3m** - [ivan.diuldia.com](https://ivan.diuldia.com)
+**Ivan Diuldia** - [ivan.diuldia.com](https://ivan.diuldia.com)
 
 ## Version
 

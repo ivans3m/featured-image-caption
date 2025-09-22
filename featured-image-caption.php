@@ -3,10 +3,10 @@
  * Plugin Name: Featured Image Caption
  * Description: Adds caption functionality to Featured Image blocks with a simple checkbox setting.
  * Version: 1.0.0
- * Author: Ivan s3m
+ * Author: Ivan Diuldia
  * Author URI: https://ivan.diuldia.com
  * License: GPL v2 or later
- * Text Domain: featured-image-caption
+ * Text Domain: featured-caption
  */
 
 // Prevent direct access
