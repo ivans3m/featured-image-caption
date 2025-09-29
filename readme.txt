@@ -1,4 +1,4 @@
-=== Featured Image - Show Caption ===
+=== Diuldia Featured Image - Show Caption ===
 Contributors: ivans3m
 Tags: featured image, caption, gutenberg, blocks
 Requires at least: 5.0
@@ -12,7 +12,7 @@ Adds caption functionality to Featured Image blocks with a simple checkbox setti
 
 == Description ==
 
-Featured Image Caption is a simple WordPress plugin that extends the core Featured Image block with caption functionality. When enabled, it displays the image caption (or title if no caption exists) below the featured image.
+Diuldia Featured Image - Show Caption is a simple WordPress plugin that extends the core Featured Image block with caption functionality. When enabled, it displays the image caption (or title if no caption exists) below the featured image.
 
 **Key Features:**
 
@@ -85,4 +85,4 @@ The plugin will automatically use the image title as a fallback if no caption is
 == Upgrade Notice ==
 
 = 1.0.0 =
-Initial release of Featured Image Caption plugin.
+Initial release of Diuldia Featured Image - Show Caption plugin.
