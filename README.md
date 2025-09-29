@@ -1,4 +1,4 @@
-# Diuldia Featured Image - Show Caption
+# FoA Featured Image - Show Caption
 
 A simple WordPress plugin that adds caption functionality to the Featured Image block.
 

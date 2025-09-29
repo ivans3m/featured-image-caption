@@ -1,12 +1,12 @@
 <?php
 /**
- * Plugin Name: Diuldia Featured Image - Show Caption
+ * Plugin Name: FoA Featured Image - Show Caption
  * Description: Adds caption functionality to Featured Image blocks with a simple checkbox setting.
  * Version: 1.0.0
  * Author: Ivan Diuldia
  * Author URI: https://ivan.diuldia.com
  * License: GPL v2 or later
- * Text Domain: diuldia-featured-image-show-caption
+ * Text Domain: foa-featured-image-show-caption
  */
 
 // Prevent direct access
