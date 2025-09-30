@@ -16,14 +16,14 @@ if (!defined('ABSPATH')) {
 
 
 // Define plugin constants
-define('FIC_PLUGIN_URL', plugin_dir_url(__FILE__));
-define('FIC_PLUGIN_PATH', plugin_dir_path(__FILE__));
-define('FIC_VERSION', '1.0.0');
+define('FOAFIC_PLUGIN_URL', plugin_dir_url(__FILE__));
+define('FOAFIC_PLUGIN_PATH', plugin_dir_path(__FILE__));
+define('FOAFIC_VERSION', '1.0.0');
 
 /**
  * Main plugin class
  */
-class FeaturedImageCaption {
+class FOAFIC_Featured_Image_Caption {
     
     /**
      * Constructor
@@ -77,16 +77,16 @@ class FeaturedImageCaption {
      */
     public function enqueue_block_editor_assets() {
         wp_enqueue_script(
-            'featured-image-caption-editor',
-            FIC_PLUGIN_URL . 'assets/editor.js',
+            'foafic-featured-image-caption-editor',
+            FOAFIC_PLUGIN_URL . 'assets/editor.js',
             array('wp-blocks', 'wp-element', 'wp-editor', 'wp-components', 'wp-i18n', 'wp-hooks'),
-            FIC_VERSION,
+            FOAFIC_VERSION,
             true
         );
         
         wp_enqueue_style(
-            'featured-image-caption-editor',
-            FIC_PLUGIN_URL . 'assets/editor.css',
+            'foafic-featured-image-caption-editor',
+            FOAFIC_PLUGIN_URL . 'assets/editor.css',
             array(),
             FIC_VERSION
         );
@@ -97,8 +97,8 @@ class FeaturedImageCaption {
      */
     public function enqueue_frontend_assets() {
         wp_enqueue_style(
-            'featured-image-caption-frontend',
-            FIC_PLUGIN_URL . 'assets/frontend.css',
+            'foafic-featured-image-caption-frontend',
+            FOAFIC_PLUGIN_URL . 'assets/frontend.css',
             array(),
             FIC_VERSION
         );
@@ -121,7 +121,7 @@ class FeaturedImageCaption {
             $show_caption = $block['attrs']['showCaption'];
         }
         // Check for our internal flag (for templates)
-        else if (isset($block['attrs']['_fic_show_caption'])) {
+        else if (isset($block['attrs']['_foafic_show_caption'])) {
             $show_caption = $block['attrs']['_fic_show_caption'];
         }
         // Check for data attribute in the HTML
@@ -176,7 +176,7 @@ class FeaturedImageCaption {
         // Check if show caption is enabled in block attributes
         if (isset($parsed_block['attrs']['showCaption']) && $parsed_block['attrs']['showCaption']) {
             // Store the setting in a way that can be accessed during rendering
-            $parsed_block['attrs']['_fic_show_caption'] = true;
+            $parsed_block['attrs']['_foafic_show_caption'] = true;
         }
         
         return $parsed_block;
@@ -214,4 +214,4 @@ class FeaturedImageCaption {
 }
 
 // Initialize the plugin
-new FeaturedImageCaption();
+new FOAFIC_Featured_Image_Caption();
